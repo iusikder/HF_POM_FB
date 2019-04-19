@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48406" started-at="2019-04-19T07:24:45Z" finished-at="2019-04-19T07:25:33Z">
+  <suite name="Default suite" duration-ms="49867" started-at="2019-04-19T07:47:19Z" finished-at="2019-04-19T07:48:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48406" started-at="2019-04-19T07:24:45Z" finished-at="2019-04-19T07:25:33Z">
+    <test name="Default test" duration-ms="49867" started-at="2019-04-19T07:47:19Z" finished-at="2019-04-19T07:48:09Z">
       <class name="com.pom.testcases.ChangePasswordTest">
-        <test-method status="FAIL" signature="changePasswordTest(java.util.Hashtable)[pri:0, instance:com.pom.testcases.ChangePasswordTest@515c6049]" name="changePasswordTest" duration-ms="47530" started-at="2019-04-19T03:24:45Z" data-provider="getData" finished-at="2019-04-19T03:25:32Z">
+        <test-method status="FAIL" signature="changePasswordTest(java.util.Hashtable)[pri:0, instance:com.pom.testcases.ChangePasswordTest@515c6049]" name="changePasswordTest" duration-ms="49444" started-at="2019-04-19T03:47:19Z" data-provider="getData" finished-at="2019-04-19T03:48:09Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.pom.testcases.ChangePasswordTest@515c6049]" name="quit" is-config="true" duration-ms="828" started-at="2019-04-19T03:25:32Z" finished-at="2019-04-19T03:25:33Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pom.testcases.ChangePasswordTest@515c6049]" name="quit" is-config="true" duration-ms="372" started-at="2019-04-19T03:48:09Z" finished-at="2019-04-19T03:48:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
