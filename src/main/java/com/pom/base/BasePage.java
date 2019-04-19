@@ -68,6 +68,7 @@ public class BasePage {
 			Date d = new Date();
 			String screenshotFile = d.toString().replace(":", " ").replace(" ", "_")+".png";
 			String filePath=com.pom.util.Constants.REPORT_PATH+"screenshots//"+screenshotFile;
+			//String filePath=com.pom.util.Constants.REPORT_PATH;
 			//Store Screenshot in the File
 			//TakeScreensot
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -83,7 +84,7 @@ public class BasePage {
 		
 		public void reportFailure(String failureMessage){
 			test.log(LogStatus.FAIL, failureMessage); //I have to check failureMessage here...
-		//	takeScreenshot();
+			takeScreenshot();
 			Assert.fail(failureMessage);
 		}
 
